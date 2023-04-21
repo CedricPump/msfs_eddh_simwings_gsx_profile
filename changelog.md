@@ -33,3 +33,9 @@
   - removed VDGS to use Simwings Scenery ones
   - renamed parking positions leading A B s
   - added Parkings for Gates 1-8
+  
+## v2.0.1
+
+- fixed wrong bgl
+- removed version vor HAS replacement
+- readded VDGS

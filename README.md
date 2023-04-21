@@ -54,18 +54,26 @@ sadly I can not include the file her due to copyright reasons but there are plac
 
 ## Installation:
 
-To install, extract the .zip and move the "eddh-eddham.ini" file inside to the following route:  
+To install, extract the .zip and move the "eddh-simwings.ini" file inside to the following route:  
 `\Users\<username>\AppData\Roaming\virtuali\GSX\MSFS`
-
-To use the HAS Ground Handler replacement:  
-
-To install, extract the .zip and move the "eddh-eddham - w  HAS replacement.ini" file inside to the following route:  
-`\Users\<username>\AppData\Roaming\virtuali\GSX\MSFS`
-Rename the file to "eddh-eddham.ini"
 
 Replace the HAS Livery Textrue file by overwriting it in the GSX (Addon Manager) Installation directory.  
 `<path>\Addon Manager\MSFS\fsdreamteam-gsx-world-of-jetways\SimObjects\GroundVehicles\FSDT_Staircase_TLD_ABS-580\texture.HAS\GSX_LOGO_4X1.PNG.DDS`
-
 This Installation needs to be refreshed after every GSX update
+
+To remove the HAS Ground Handler replacement:
+open "eddh-simwings.ini" in notepad++ and find and replace:
+
+find:        handlingtexture = HAS
+replace:     handlingtexture = 
+search mode: normal
+
+To remove GSX VDGSs and use the simwings sceneries ones:
+open "eddh-simwings.ini" in notepad++ and find and replace:
+
+find:        ^.*ApisLsupport|ApisWall|SafeDockTS42|SafeDockT42|SafeDockTS24.*$
+replace:     Dummy
+search mode: regular expression
+
 
 Editing and reupload is explicitly permitted.
