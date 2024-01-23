@@ -10,6 +10,8 @@ HAS (Hong Kong Airport Services Limited) so that they appear as Hamburg Airport.
 I know it is not the HMA Ground Logo but that would be way to small on the vehicles and not match the sceneries stairs.
 See installation for more information and limitations.
 
+thanks to CvzImTom for conrtibuting improvements.
+
 ## Features  
 ### Gates  
 
